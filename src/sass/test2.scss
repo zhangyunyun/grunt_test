@@ -1,0 +1,21 @@
+.box2 {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  &::after {
+    position: absolute;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: #f00;
+    color: #fff;
+    text-align: center;
+    line-height: 0.2rem;
+    font-size: 0.25rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+}
